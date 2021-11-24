@@ -1,3 +1,5 @@
+
+
 const port = 3010;
 
 const makeAPost = document.querySelector("#write-a-post");
@@ -25,12 +27,12 @@ button.addEventListener("click", () => {
   }
 });
 
+
 home.addEventListener("click", (e) => {
   e.preventDefault();
   init();
 })
 function init() {
-
   data();
   makeNewPost();
 }
@@ -76,4 +78,5 @@ function data() {
   }
      ;
     }
+
 
